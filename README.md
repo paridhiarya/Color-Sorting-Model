@@ -1,2 +1,32 @@
-# Color-Sorting-Model
-Color Sorting Model with Arduino Uno, Color Sensor, Weight sensor, NodeMCU and firebase connectivity to display outputs on an android app.
+# Color and Weight Sensing Object Sorting Model
+
+The Color and Weight Sensing Object Sorting Model is a hardware and software system designed to sort objects into four bins based on their color and weight. This project integrates various components, including Arduino Uno, Node-MCU, HX711 Load Cell, and others, to create an efficient sorting system. Additionally, it features an Android-based interface for recording and displaying object descriptions and counts.
+
+## Features
+
+- **Object Sorting**: The system sorts objects into four bins based on their color and weight.
+
+- **Hardware Components**: Utilizes over 7 components, including Arduino Uno, Node-MCU, HX711 Load Cell, and more.
+
+- **Android Interface**: Features an Android-based user interface for maintaining records and displaying object descriptions and counts.
+
+## Technologies Used
+
+The project incorporates the following technologies:
+
+- **Embedded C**: Used for programming the microcontrollers and sensors to control the hardware components.
+
+- **Java (Android)**: The Android-based interface is developed in Java, providing a user-friendly way to interact with the system.
+
+- **Firebase**: Firebase is used for real-time data storage and synchronization, making it easier to manage and access data from the Android interface.
+
+## Getting Started
+
+To get started with the Color and Weight Sensing Object Sorting Model, follow these steps:
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/yourusername/color-weight-sensing-sorting-model.git
+  ```
+
