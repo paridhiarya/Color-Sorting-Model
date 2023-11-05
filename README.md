@@ -88,7 +88,7 @@ This project is licensed under the MIT License. Please feel free to use, modify,
 For any questions or inquiries about this project, please contact:
 
 
-- Paridhi 
+- Name: Paridhi 
 - Mail: paridhiarya22@gmail.com, paridhi.a21@iiits.in
 - Socials: Linked in Github profile
 
