@@ -2,13 +2,29 @@
 
 The Color and Weight Sensing Object Sorting Model is a hardware and software system designed to sort objects into four bins based on their color and weight. This project integrates various components, including Arduino Uno, Node-MCU, HX711 Load Cell, and others, to create an efficient sorting system. Additionally, it features an Android-based interface for recording and displaying object descriptions and counts.
 
-## Features
+## Abstract
 
-- **Object Sorting**: The system sorts objects into four bins based on their color and weight.
+‘Colour sorting machines’ or ‘color sorters’ are machines that detect the colors
+of objects before them, distinguish items by color, and use mechanical or pneumatic ejection devices to transfer items whose colors are not within the acceptable range. The added weight detection feature provides additional information about objects and ensures weight limits aren’t exceeded, wherever applicable. Such machines may potentially be used in production lines in bulk food processing and other industries.
 
-- **Hardware Components**: Utilizes over 7 components, including Arduino Uno, Node-MCU, HX711 Load Cell, and more.
+## Justification
 
-- **Android Interface**: Features an Android-based user interface for maintaining records and displaying object descriptions and counts.
+This machine may find an application in the agricultural industry in classifying grains. The rice sorting industry is the first big market. It can be used to separate different stones, black rice, etc. according to the color difference of the rice (hulled rice) material. Similarly, it can also be used to sort other coarse grains, such as wheat, corn, peanuts, various beans, sesame, etc. 
+Furthermore, color sorters may be used in the food processing industry, working with items such as coffee, nuts, oil crops, etc. The goal will be to separate discolored, toxic (such as ergot), unripe substances or husks that still have skins such as sunflower seeds. Compared with manual sorting, the machine will save labor and time, as it has high efficiency and low processing cost. 
+
+This prototype is highly scalable. Colour sorter integrated with a weight detection system can not only solve the needs of suppliers in the food industry and agricultural product processing industries, but also meet the needs of suppliers in several industrial fields, such as for recycling. Furthermore, an additional feature enabling the maintenance of objects sorted thus far via a Bluetooth module increases the usability of the sorter.
+
+
+## Hardware Components Required:
+
+   - Arduino uno
+   - NodeMCU
+   - TCS3200 Colour Sensor
+   - Servo Motors (2)
+   - Weight Sensor (HX711 Load Cell)
+   - Battery
+   - Sun board Sheets for Model
+   - Jumper wires
 
 ## Technologies Used
 
@@ -19,6 +35,8 @@ The project incorporates the following technologies:
 - **Java (Android)**: The Android-based interface is developed in Java, providing a user-friendly way to interact with the system.
 
 - **Firebase**: Firebase is used for real-time data storage and synchronization, making it easier to manage and access data from the Android interface.
+  
+- **Arduino Uno IDE**: Used for writing the embedded C code to burn onto the Arduino Uno and Node MCU
 
 ## Getting Started
 
@@ -66,11 +84,12 @@ To get started with the Color and Weight Sensing Object Sorting Model, follow th
 ## License
 This project is licensed under the MIT License. Please feel free to use, modify, and distribute it according to the terms of the license.
 
-Contact
+## Contact
 For any questions or inquiries about this project, please contact:
 
-Paridhi 
-Mail: paridhiarya22@gmail.com, paridhi.a21@iiits.in
-Socials: Linked in Github profile
+
+- Paridhi 
+- Mail: paridhiarya22@gmail.com, paridhi.a21@iiits.in
+- Socials: Linked in Github profile
 
 I appreciate your interest and contributions to the Color and Weight Sensing Object Sorting Model. Thank you!
